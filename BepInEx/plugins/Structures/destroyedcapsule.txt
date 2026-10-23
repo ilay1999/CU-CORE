@@ -1,0 +1,42 @@
+StructureDefinitions["destroyedcapsule"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "...........G",
+        "G5........5M",
+        "M...5......M",
+        "MGM.....5..M",
+        "XMMr.......M",
+        ".XMM..2.r.GM",
+        "..XMrrrrMrMX",
+        "..XMMrMMMMX.",
+        "...XMMMXXX..",
+    },
+
+    BackgroundShape = new string[]
+    {
+        "M.........MM",
+        "MMMGG..MGGMM",
+        "MPPMMGGMMMM.",
+        ".PPPMMMMMMM.",
+        "...PPMMPPPP.",
+        "....PPPPPPP.",
+        "....PP......",
+        "............",
+        "............",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '2', "corpse" },
+        { '5', "glassshards" },
+    },
+
+    SpawnCounts = new int[] { 2, 2, 3, 3, 3 },
+    SequentialItems = null,
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 6, GridY = 3, OffsetX = 0f, OffsetY = -0.5f },
+    },
+    BlockMapOverrides = null
+};

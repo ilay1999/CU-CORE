@@ -1,0 +1,40 @@
+StructureDefinitions["meteor"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "..x......xxxfxx.......x",
+        "xSxxx..xxfxxxxx....xT^x",
+        "R^fSTxxxxx..xxxx..xxSxf",
+        "RRSf^xxxxx*.xxxxxxxx^RT",
+        "fxRhhhxxhxxhxx^TxSTxxhR",
+        "RRhhRhhhxxxh^STfSTRxhh ",
+        " RxRfTRRSTfShRRxRhhhhx ",
+        "    RRxRRRRRxhfRRhRfR  ",
+        "       RRxR            ",
+    },
+
+    BackgroundShape = new string[]
+    {
+        ".....x.............x...",
+        ".....xx...xxx.xx.xxx...",
+        ".....xxxxxxxxxxxxxx....",
+        ".....xxxxxxxxx.xxxx....",
+        ".......xxxxxxxx..x.....",
+        ".h....................h",
+        ".h.h.........hh.h....hh",
+        ".hhh.hhh...h...hhh..hhh",
+        "...hhh......hhhh.h.h...",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+    },
+
+    SpawnCounts = new int[] { 2, 1, 0, 2, 1 },
+    SequentialItems = "titaniumslab",
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 10, GridY = 5, OffsetX = 0.35f, OffsetY = 0.35f },
+    },
+    BlockMapOverrides = null
+};

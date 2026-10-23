@@ -1,0 +1,80 @@
+StructureDefinitions["OilSilo"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        ".....................................",
+        ".....................XXXX.....XXXX...",
+        "...................#..HH..#.#..HH..#.",
+        "...................#MMMMMM#X#MMMMMM#.",
+        ".................. #M....M#.#M....M#.",
+        "..............     #M.1..M#X#M.1..M#.",
+        "...........        #M....M#.#M....M#.",
+        "..LLLLLLLLLLLLLLLLL#M....M#X#M....M#.",
+        ".LWWWWWWWWWWWWWWWW##M....M#.#M....M#.",
+        ".WW3............3W#MM....M#X#M....M#.",
+        "..................#M.....M#.#M..4.M#.",
+        ".....*.............G.....M###M....M# ",
+        "............*......G...5.MMMMM....M# ",
+        "....WWW............G..............M# ",
+        "..................#M..............M# ",
+        " #WWWWWWWWWWWWWWWW#MM....MMMMM....M# ",
+        " ###################M....M###M.4..M# ",
+        "                   #M....M# #M....M# ",
+        "                   #M.1..M#X#M.1..M# ",
+        "                   #M....M# #M....M# ",
+        "                   #MMMMMM#X#MMMMMM# ",
+        "                   ######## ######## ",
+        "                                     ",
+    },
+
+    BackgroundShape = new string[]
+    {
+        ".....................................",
+        "....XXXX.....XXXX....................",
+        "..#..HH..#.#..HH..##......#.#......#.",
+        "..#MMMMMM#X#MMMMMM##MMMMMM#X#MMMMMM#.",
+        "..#MMMMMM#.#MMMMMM##MMMMMM#.#MMMMMM#.",
+        "..#MMMMMM#X#MMMMMM##MMMMMM#X#MMMMMM#.",
+        "..#MMMMMM#.#MMMMMM##MMMMMM#.#MMMMMM#.",
+        "..LLLLLLLLLLLLLLLLL#MMMMMM#X#MMMMMM#.",
+        ".LWWWWWWWWWWWWWWWW##MMMMMM#.#MMMMMM#.",
+        ".WWWWWWWWWWWWWWWWW#MMMMMMM#X#MMMMMM#.",
+        ".W########W########MMMMMMM#.#MMMMMM#.",
+        ".W##GGGG##W##GGGG##MMMMMMM###MMMMMM#.",
+        ".W##GGGG##W##GGGG##MMMMMMMMMMMMMMMM#.",
+        ".W##GGGG##W##GGGG##MMMMMMMMMMMMMMMM#.",
+        ".W###L####W########MMMMMMMMMMMMMMMM#.",
+        ".#WWWWWWWWWWWWWWWW#MMMMMMMMMMMMMMMM#.",
+        ".###################MMMMMM###MMMMMM#.",
+        "..########.#########MMMMMM#.#MMMMMM#.",
+        "..########X#########MMMMMM#X#MMMMMM#.",
+        "..########.#########MMMMMM#.#MMMMMM#.",
+        "..########X#########MMMMMM#X#MMMMMM#.",
+        "..########.################.########.",
+        ".....................................",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '1', "oilpipe" },
+        { '3', "LifePodLight" },
+        { '4', "containercrate" },
+        { '5', "medcrate" },
+    },
+
+    SpawnCounts = new int[] { 1, 1, 3, 2, 1 },
+    SequentialItems = "safetyglasses,minibarrel",
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 22, GridY = 4, OffsetX = 0.5f, OffsetY = 0f, Scale = 0.5f },
+        new EntityPrecisePos { GridX = 31, GridY = 4, OffsetX = 0.5f, OffsetY = 0f, Scale = 0.5f },
+        new EntityPrecisePos { GridX = 22, GridY = 17, OffsetX = 0.5f, OffsetY = 0f, Scale = 0.5f },
+        new EntityPrecisePos { GridX = 31, GridY = 17, OffsetX = 0.5f, OffsetY = 0f, Scale = 0.5f },
+        new EntityPrecisePos { GridX = 16, GridY = 13, OffsetX = 0f, OffsetY = 0.5f },
+        new EntityPrecisePos { GridX = 3, GridY = 13, OffsetX = 0f, OffsetY = 0.5f },
+        new EntityPrecisePos { GridX = 23, GridY = 10, OffsetX = 0f, OffsetY = 0f, Scale = 0.5f },
+        new EntityPrecisePos { GridX = 31, GridY = 6, OffsetX = 0.35f, OffsetY = 0.35f },
+        new EntityPrecisePos { GridX = 32, GridY = 12, OffsetX = -0.35f, OffsetY = 0.35f },
+    },
+    BlockMapOverrides = null
+};

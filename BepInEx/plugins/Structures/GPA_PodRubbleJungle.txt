@@ -1,0 +1,48 @@
+StructureDefinitions["GPA:PodRubbleJungle"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "...............H ...",
+        "...............Mve..",
+        "............. HSMM..",
+        ".............MPvMMH.",
+        ".............P.PP v.",
+        ".....HMH .......PMH.",
+        "....HMver......1SH..",
+        "....Mr.........PeH..",
+        "...............Mv...",
+        "............*rPM ...",
+        ".P......4...r M  ...",
+        ".e.M1* ...*  MMH ...",
+        "GSr rM  rr     H  H.",
+        "                    ",
+    },
+
+    BackgroundShape = new string[]
+    {
+        "................ ...",
+        "....................",
+        ".............  .....",
+        "....................",
+        "..............m.. ..",
+        ".......  ..MM Sm....",
+        ".........MMMvemMS...",
+        "... ..mlMs  sl .....",
+        "..  MMeMMG   Sm.. ..",
+        "   MMe#Mss  G...  ..",
+        " .MM###Ssess...    .",
+        " .S  m#  sv.....    ",
+        "  ..............    ",
+        "................    ",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '1', "glassshards" },
+        { '4', "glowplant" },
+    },
+
+    SpawnCounts = new int[] { 0, 0, 0, 0, 4 },
+    SequentialItems = "experimentflesh",
+    BlockMapOverrides = null
+};

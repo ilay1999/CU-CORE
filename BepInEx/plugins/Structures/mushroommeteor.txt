@@ -1,0 +1,55 @@
+StructureDefinitions["mushroommeteor"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "...........",
+        "...........",
+        ".....^^^...",
+        "....^^^^^..",
+        "ff...4b.4.*",
+        "hx*...b...R",
+        "hix1.b..*xh",
+        "hiff1b32ffh",
+        " hRRxxfffhh",
+        " hhRRRiihh ",
+        "   hhhhh   ",
+    },
+
+    BackgroundShape = new string[]
+    {
+        "           ",
+        "           ",
+        "     ^^^   ",
+        "    ^^^^^  ",
+        "ffhhhhbhhhh",
+        "hffRRRbRRRg",
+        "hgfffbRRRfh",
+        "hgfffbffffh",
+        " hggfffffhh",
+        " hhggggghh ",
+        "   hhhhh   ",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '1', "fungalibungali" },
+        { '2', "grabbershroom" },
+        { '3', "xaloris" },
+        { '4', "mushroomdropper" },
+    },
+
+    SpawnCounts = new int[] { 4, 4, 4, 4, 5 },
+    SequentialItems = "campfire,campfire,campfire",
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 10, GridY = 6, OffsetX = 0f, OffsetY = -0.5f, Scale = 0.5f },
+        new EntityPrecisePos { GridX = 8, GridY = 4, OffsetX = 0f, OffsetY = -0.5f, Scale = 0.5f },
+        new EntityPrecisePos { GridX = 2, GridY = 5, OffsetX = 0f, OffsetY = -0.5f, Scale = 0.5f },
+        new EntityPrecisePos { GridX = 6, GridY = 3, OffsetX = 0f, OffsetY = 0.5f, Scale = 0.5f },
+        new EntityPrecisePos { GridX = 3, GridY = 4, OffsetX = 0f, OffsetY = -0.25f, Scale = 0.5f },
+        new EntityPrecisePos { GridX = 8, GridY = 6, OffsetX = 0f, OffsetY = -0.1f, Scale = 0.6f },
+        new EntityPrecisePos { GridX = 5, GridY = 6, OffsetX = 0f, OffsetY = -0.1f, Scale = 0.6f },
+        new EntityPrecisePos { GridX = 7, GridY = 3, OffsetX = 0f, OffsetY = 0f, Scale = 0.5f },
+    },
+    BlockMapOverrides = null
+};

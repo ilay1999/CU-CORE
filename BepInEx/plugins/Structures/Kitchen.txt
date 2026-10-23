@@ -1,0 +1,68 @@
+StructureDefinitions["Kitchen"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "        H..HHHHHHH                  ",
+        "     ..MM3.MBBBBBBH                 ",
+        "   ......HH...7...BH            dd  ",
+        "  .................BH           dd  ",
+        " ....1......5..5....BH         dd   ",
+        " ...........BB.BB....BH       dd    ",
+        "......................BH      ..    ",
+        "2.MM..*................BHHHHHHCCHHH ",
+        "..MH....................BBBBBBCCBBHH",
+        " ..MHHMGGGGGGGGGGMr......7...PPPP.BM",
+        "   .MMMMMMMMMMMMMMPr..............BM",
+        "                 MWPr.............BM",
+        "                  MWPr.......*..6.BM",
+        "                   MWPr...**.B4.B.BM",
+        "                    MWPrMGGGGBBBBMMM",
+        "                     MMMMMMMMMMMMM  ",
+    },
+
+    BackgroundShape = new string[]
+    {
+        "....................................",
+        "....................................",
+        ".......PMBMMMMMMMM..................",
+        "......PMMBMMMMMMMMB..MMMMMM.........",
+        ".....PMMMBMMMMMMMMBM....M..M........",
+        "....PMMMMBMMMMMMMMBMM....M..M.......",
+        "...PMMMMMBMMBBMBBMBMMM....M..M......",
+        "....MMMMMBMMLLMLLMBMGMM.............",
+        "....MMMMMBMMLLMLLMBMGGMB..MM........",
+        ".......MMBMMMMMMM.MMMGMBMMMMM..B.M..",
+        "...................MMMMBMMMMMBwwBM..",
+        ".....M.M...M...M....MMMBMMLLMB##BM..",
+        "......MMM...M...M.....MBMMLLMB##BM..",
+        ".........M...M...M.....BMMLLMBBBBM..",
+        "..........MMMMMMMMMM.....MMMM.......",
+        "....................................",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '1', "reinforceddoor" },
+        { '2', "bioterminal" },
+        { '3', "scrapeater" },
+        { '4', "campfire" },
+        { '5', "foodbox" },
+        { '6', "bread" },
+        { '7', "LifePodLight" },
+    },
+
+    SpawnCounts = new int[] { 1, 2, 2, 3, 1 },
+    SequentialItems = "waterjug,flimsyknife,woodcube,woodcube",
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 14, GridY = 13, OffsetX = 0f, OffsetY = 0.5f },
+        new EntityPrecisePos { GridX = 5, GridY = 11, OffsetX = 0f, OffsetY = 0f, Rotation = 45f },
+        new EntityPrecisePos { GridX = 12, GridY = 11, OffsetX = 0.5f, OffsetY = 0.35f },
+        new EntityPrecisePos { GridX = 15, GridY = 11, OffsetX = 0.5f, OffsetY = 0.35f },
+        new EntityPrecisePos { GridX = 6, GridY = 8, OffsetX = 0f, OffsetY = -0.5f },
+        new EntityPrecisePos { GridX = 25, GridY = 6, OffsetX = 0f, OffsetY = 0.5f },
+        new EntityPrecisePos { GridX = 30, GridY = 2, OffsetX = 0.5f, OffsetY = 0f },
+        new EntityPrecisePos { GridX = 9, GridY = 14, OffsetX = 0.5f, OffsetY = 0.5f },
+    },
+    BlockMapOverrides = null
+};

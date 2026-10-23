@@ -1,0 +1,41 @@
+StructureDefinitions["containercratecrawl"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "rrr   rrrrrrr   rrr",
+        "MMrrrrrMMMMMrrrrrMM",
+        "MMMMMMMM.3.MMMMMMMM",
+        "X......X...X......X",
+        "X......X...X......X",
+        "MMMMMMMM.4.MMMMMMMM",
+        "MMrrrrrMMMMMrrrrrMM",
+        "rrr   rrrrrrr   rrr",
+    },
+
+    BackgroundShape = new string[]
+    {
+        "...................",
+        "...................",
+        "MMMMMMMr###MMMMMMMM",
+        "XMMMMMMX###XMMMMMMX",
+        "XMMMMMMX###XMMMMMMX",
+        "MMMMMMMM###MMMMMMMM",
+        "...................",
+        "...................",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '3', "LifePodLight" },
+        { '4', "containercrate" },
+    },
+
+    SpawnCounts = new int[] { 3, 3, 2, 2, 2 },
+    SequentialItems = null,
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 9, GridY = 5, OffsetX = 0f, OffsetY = 0.5f },
+        new EntityPrecisePos { GridX = 9, GridY = 2, OffsetX = 0f, OffsetY = 0.5f, Scale = 0.7f },
+    },
+    BlockMapOverrides = null
+};

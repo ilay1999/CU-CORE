@@ -1,0 +1,79 @@
+StructureDefinitions["Outeposte"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        ".....................................................",
+        ".....................................................",
+        ".................................5##...........S77##P",
+        "..................................S#################.",
+        "...................................................#.",
+        "....2..............................................G.",
+        "...................................................G.",
+        "..................................1................G.",
+        "................................................4..#P",
+        "P##.............##5..................4...6.........#.",
+        ".#################........................77TT.....#.",
+        ".#................................S7...3S########### ",
+        ".G..............................oRSS...R.g#########. ",
+        ".G...........................6ooRRRR.....RRRRRRRR... ",
+        ".G.....0..8......1......llloogRRgRg......RgngRRRg....",
+        "P#....PPPPPP........6..ogRRRRRRRnRR......RRRRCnR.....",
+        ".#.....P..P...........ooRgRRgRRggRgR......RRCCR... ..",
+        ".#.9...P..P.........RRngRRRRRRRRRRRRoo...gRRRR..    .",
+        " #################ooRRRRRR        RRgR...            ",
+        " .################gR               RRg...            ",
+        "                                     .....           ",
+    },
+
+    BackgroundShape = new string[]
+    {
+        "                                                     ",
+        "                        .                            ",
+        "                        ..       ##############SM### ",
+        "    ..                   .       ################### ",
+        "   ....                  .       ###PP############P# ",
+        "    ..                            ##GG#############G.",
+        "                                  ##GG#############G.",
+        "                                  ##GG#############G.",
+        "                       .....      ##PP############P# ",
+        " ###M##############  .........    #X#HH#HH#HH#HH#HH# ",
+        " ##################  ...l.l...  g ################## ",
+        ".#P###########PP###  ..lllll.ggRg###################R",
+        ".G############GG##    .l.lRlRRRRR##SR###############R",
+        ".G############GG##    ...lRRRRRRRRRR...RRRRR...RRRR R",
+        ".G############GG##gg RRRgRRR.gRRRgRRR.RRRRgn.g.R.RRR ",
+        " #P###########PP##gg.RRRlRRRRRRnnRRggggRR...RCngR RR ",
+        " #HH#HH#HH#HH#HHX#g RgRRRRgggRRgR..RRRRRRR..CCnRRRR  ",
+        " ##################RRRngRgRR.RRRRR...gR.gggR..RRRRg  ",
+        " ##################RRR RRRRRRgRRRRRRRRR.RRRRRRRgRRR  ",
+        "  #################RRRR gRR RRRRRRR R   RRgRR...RR   ",
+        "   R   R        R          gR                        ",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '0', "minilaserdrill" },
+        { '1', "reinforceddoor" },
+        { '2', "barbedwirefence" },
+        { '3', "climbingropeextended" },
+        { '4', "medcrate" },
+        { '5', "LifePodLight" },
+        { '6', "CaveTicks" },
+        { '7', "scrapmetal" },
+        { '8', "blueprint" },
+        { '9', "brokenbag" },
+    },
+
+    SpawnCounts = new int[] { 0, 1, 1, 0, 1 },
+    SequentialItems = "brokenbag",
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 48, GridY = 12, OffsetX = 0f, OffsetY = -0.5f },
+        new EntityPrecisePos { GridX = 18, GridY = 11, OffsetX = 0f, OffsetY = 0f, FlipY = true },
+        new EntityPrecisePos { GridX = 3, GridY = 3, OffsetX = 0f, OffsetY = 0.3f, Rotation = 270f },
+        new EntityPrecisePos { GridX = 7, GridY = 6, OffsetX = 0f, OffsetY = 0.35f },
+        new EntityPrecisePos { GridX = 37, GridY = 11, OffsetX = 0f, OffsetY = -0.2f, Rotation = 15f },
+        new EntityPrecisePos { GridX = 33, GridY = 18, OffsetX = 0f, OffsetY = 0f, FlipY = true },
+    },
+    BlockMapOverrides = null
+};

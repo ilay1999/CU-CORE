@@ -1,0 +1,17 @@
+{
+    "limbs": [ ],
+    "fullname": "Bulletproof helmet",
+    "description": "A helmet made to minimize damage against projectiles. Less efficent against other forms of damage",
+    "category": "utility",
+    "decayMinutes": 0,
+    "weight": 1.0,
+    "desiredWearLimb": "Head",
+    "wearSlotId": "hat",
+    "wearableIsolation": 0.2,
+    "wearableArmor": 0.4,
+    "wearableHitDurabilityLossMultiplier": 0.08,
+    "wearableVisualOffset": 8,
+    "rippableAmount": 0,
+    "value": 50,
+    "isBulletproof": true,
+}

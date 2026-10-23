@@ -1,0 +1,66 @@
+StructureDefinitions["DrillpodHanger"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "  .......    ...................      ",
+        " ...  ..      ......   ....    ..     ",
+        "..MBBBBBBBBBBBBBBBBBBBBBBBBBBBBM..    ",
+        ".MBBBBBBBBBBBBMBBBBBBBBMBBBBBBBBM.    ",
+        ".BB...........2........2.......BB..   ",
+        ".B................3.............B..   ",
+        "...............................*B..   ",
+        "..............................WWB...  ",
+        "...............................*B.... ",
+        ".......*......................WWB.... ",
+        "......WWW...X...X....X...X.....*B.MXM ",
+        "...........X.....X..X.....X...WWB M!M ",
+        " B#PPPPPPP#...1...##...1...#PPP#B M!M ",
+        " MB#######B.......BB.......B###BMHM!M ",
+        "  MBBBBBBBB.......BB.......BBBBM  MMM ",
+        "         BB.......BB.......BB         ",
+        "         BB.......BB.......BB         ",
+        "          B                B          ",
+    },
+
+    BackgroundShape = new string[]
+    {
+        "......................................",
+        "......................................",
+        "..MBBBBBBBBBBBBBBBBBBBBBBBBBBBBM......",
+        ".MBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBM.....",
+        ".BB#########X###X####X###X#####BB.....",
+        ".B##########X###X####X###X######B.....",
+        ".B###GGGGG##X###X####X##GXGGG###B.....",
+        ".B##########X###X####X###X######B.....",
+        ".B##########X###X####X###X######B.....",
+        ".B##########X###X####X###X######B.....",
+        ".B##########..#..####..#..######B.MMM.",
+        ".B#####L###.#####.##.#####.#####B.MMM.",
+        ".B#PPPPPPP##X###X####X###X##PPP#B.MMM.",
+        ".MB#######BXXXXXXXBBXXXXXXXB###BM MMM.",
+        "..MBBBBBBBBBBBBBBBBBBBBBBBBBBBBM..MMM.",
+        ".........BBBBBBBBBBBBBBBBBBBB.........",
+        ".........BBBBBBBBBBBBBBBBBBBB.........",
+        "..........B................B..........",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '1', "drillpod" },
+        { '2', "LifePodLight" },
+        { '3', "lifepodheater" },
+    },
+
+    SpawnCounts = new int[] { 1, 2, 0, 0, 0 },
+    SequentialItems = "circuitboard,bundleofwires,makeshiftwrench,scrapcube,",
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 14, GridY = 13, OffsetX = 0f, OffsetY = 0.5f },
+        new EntityPrecisePos { GridX = 23, GridY = 13, OffsetX = 0f, OffsetY = 0.5f },
+        new EntityPrecisePos { GridX = 31, GridY = 11, OffsetX = -0.5f, OffsetY = 0f },
+        new EntityPrecisePos { GridX = 31, GridY = 9, OffsetX = -0.5f, OffsetY = 0f },
+        new EntityPrecisePos { GridX = 31, GridY = 7, OffsetX = -0.5f, OffsetY = 0f },
+        new EntityPrecisePos { GridX = 18, GridY = 12, OffsetX = 0.5f, OffsetY = 0f },
+    },
+    BlockMapOverrides = null
+};

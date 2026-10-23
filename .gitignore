@@ -1,0 +1,16 @@
+/*
+<<<<<<< HEAD
+=======
+*.log
+>>>>>>> master
+!/BepInEx
+!.doorstop_version
+!.gitignore
+!doorstop_config.ini
+!winhttp.dll
+<<<<<<< HEAD
+!README.md
+!/mods-backup
+=======
+!README.md
+>>>>>>> master

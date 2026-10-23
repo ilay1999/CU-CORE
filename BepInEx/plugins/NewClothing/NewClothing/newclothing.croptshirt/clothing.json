@@ -1,0 +1,17 @@
+{
+    "limbs": [ "UpArmF", "UpArmB" ],
+    "fullname": "Crop T-Shirt",
+    "description": "A crop t-shirt made to cover your thorax and upper arms. Provides medium insulation and some protection",
+    "category": "utility",
+    "decayMinutes": 0,
+    "weight": 0.2,
+    "desiredWearLimb": "UpTorso",
+    "wearSlotId": "torso",
+    "wearableIsolation": 0.2,
+    "wearableArmor": 0.25,
+    "wearableHitDurabilityLossMultiplier": 0.1,
+    "wearableVisualOffset": 2,
+    "rippableAmount": 2,
+    "value": 18,
+    "recognition": 7
+}

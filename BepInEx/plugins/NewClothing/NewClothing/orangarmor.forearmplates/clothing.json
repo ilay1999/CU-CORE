@@ -1,0 +1,17 @@
+{
+    "limbs": [ "DownArmB" ],
+    "fullname": "Forearm plates",
+    "description": "A pair of armor plates designed to go on your forearms to minimize damage against projectiles. Less efficent against other forms of damage",
+    "category": "utility",
+    "decayMinutes": 0,
+    "weight": 0.5,
+    "desiredWearLimb": "DownArmF",
+    "wearSlotId": "arms",
+    "wearableIsolation": 0.1,
+    "wearableArmor": 0.4,
+    "wearableHitDurabilityLossMultiplier": 0.1,
+    "wearableVisualOffset": 8,
+    "rippableAmount": 0,
+    "value": 24,
+    "isBulletproof": true,
+}

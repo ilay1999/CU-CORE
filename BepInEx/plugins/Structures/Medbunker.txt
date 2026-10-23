@@ -1,0 +1,52 @@
+StructureDefinitions["Medbunker"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "MMMMMMMMMMMMMMMMMMMMM",
+        "MWrWrWrWrWrWrWrWrWrWM",
+        "M.........3.........M",
+        "G...................G",
+        "G...................G",
+        "G...................G",
+        "G...................G",
+        "G...*...............G",
+        "G.HHHH....2......1..G",
+        "M.PrrP..............M",
+        "MWrWrWrWrWrWrWrWrWrWM",
+        "MMMMMMMMMMMMMMMMMMMMM",
+    },
+
+    BackgroundShape = new string[]
+    {
+        ".....................",
+        "..MMMMMMMfffMMMMMMM..",
+        ".GPMMMMMMfffMMMMMMPG.",
+        "GGmMMMMMMfffMMMMMMmGG",
+        "GGmMMMfffffffffMMMmGG",
+        "GGmMMMfffffffffMMMmGG",
+        "GGmMMMfffffffffMMMmGG",
+        "GGmMMMMMMfffMMMMMMmGG",
+        "GGmMMMMMMfffMMMMMMmGG",
+        ".GPMMMMMMfffMMMMMMPG.",
+        ".MMMMMMMMMMMMMMMMMMM.",
+        ".....MMM.MMM.........",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '1', "medcrate" },
+        { '2', "medicalstation" },
+        { '3', "LifePodLight" },
+    },
+
+    SpawnCounts = new int[] { 3, 3, 3, 3, 5 },
+    SequentialItems = "dustmask",
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 10, GridY = 3, OffsetX = 0f, OffsetY = -0.5f },
+        new EntityPrecisePos { GridX = 4, GridY = 4, OffsetX = -0.5f, OffsetY = 0f },
+        new EntityPrecisePos { GridX = 10, GridY = 9, OffsetX = 0f, OffsetY = 0.5f },
+        new EntityPrecisePos { GridX = 17, GridY = 3, OffsetX = 0.3f, OffsetY = 0.5f },
+    },
+    BlockMapOverrides = null
+};

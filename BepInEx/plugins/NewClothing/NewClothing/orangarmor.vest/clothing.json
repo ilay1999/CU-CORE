@@ -1,0 +1,17 @@
+{
+    "limbs": [ "DownTorso" ],
+    "fullname": "Bulletproof vest",
+    "description": "A vest to go onto your thorax and abdomen made to minimize damage against projectiles. Less efficent against other forms of damage",
+    "category": "utility",
+    "decayMinutes": 0,
+    "weight": 1.0,
+    "desiredWearLimb": "UpTorso",
+    "wearSlotId": "torso",
+    "wearableIsolation": 0.2,
+    "wearableArmor": 0.25,
+    "wearableHitDurabilityLossMultiplier": 0.06,
+    "wearableVisualOffset": 4,
+    "rippableAmount": 0,
+    "value": 50,
+    "isBulletproof": true,
+}

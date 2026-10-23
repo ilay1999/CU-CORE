@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 146203610
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 889bcfd62c59ccd71193b09f7cb025fa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 972240b7d44eb92aee2a478f11bad157
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 889bcfd62c59ccd71193b09f7cb025fa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Resources/special/BaronSelfHarmMinigame.prefab
+Dependencies: []

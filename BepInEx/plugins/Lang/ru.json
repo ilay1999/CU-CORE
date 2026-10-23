@@ -1,0 +1,126 @@
+{
+  "translations": [
+    { "key": "menu_header", "value": "-ПРОТОКОЛ ПЕРЕНОСА ТЕЛА---------v2.08-" },
+    { "key": "menu_biometrics", "value": "-БИОМЕТРИЯ--------" },
+    { "key": "menu_traits", "value": "-ОСОБЕННОСТИ--------" },
+    { "key": "menu_warning", "value": "! ВНИМАНИЕ: ЭТОТ ПРОЦЕСС НЕОБРАТИМ !" },
+    { "key": "menu_transfer", "value": "НАЧАТЬ ПЕРЕНОС" },
+    { "key": "menu_locked", "value": "[ ЗАБЛОКИРОВАНО ]" },
+    { "key": "menu_unlock_all", "value": "ОТКРЫТЬ ВСЁ" },
+    { "key": "menu_music", "value": "СВОЯ МУЗЫКА" },
+    { "key": "menu_random", "value": "СЛУЧАЙНЫЙ" },
+    { "key": "menu_unknown", "value": "???" },
+    { "key": "menu_none", "value": "НЕТ" },
+	
+    { "key": "stat_strength", "value": "СИЛА" },
+    { "key": "stat_resilience", "value": "СТОЙКОСТЬ" },
+    { "key": "stat_intellect", "value": "ИНТЕЛЛЕКТ" },
+    { "key": "stat_mobility", "value": "ПОДВИЖНОСТЬ" },
+    { "key": "stat_leap_power", "value": "СИЛА ПРЫЖКА" },
+    { "key": "stat_toughness", "value": "ЖИВУЧЕСТЬ" },
+    { "key": "stat_regen_rate", "value": "СКОР. РЕГЕНЕРАЦИИ" },
+    { "key": "stat_immunity", "value": "ИММУНИТЕТ" },
+	
+    { "key": "boot_init", "value": "ИНИЦИАЛИЗАЦИЯ УСТРОЙСТВА..." },
+    { "key": "boot_scan", "value": "СКАНИРОВАНИЕ БИОЛОГИИ..." },
+    { "key": "boot_calibrate", "value": "КАЛИБРОВКА НЕЙРОИНТЕРФЕЙСА..." },
+    { "key": "boot_load", "value": "ЗАГРУЗКА ГЕНЕТИЧЕСКИХ ПРОФИЛЕЙ..." },
+    { "key": "boot_found", "value": " ПРОФИЛЕЙ НАЙДЕНО" },
+    { "key": "boot_ready", "value": "ГОТОВО." },
+	
+    { "key": "alert_unlocked", "value": "Gunsaw Genetics | Вид разблокирован" },
+    { "key": "alert_roza_prog", "value": "Gunsaw Genetics | Прогресс вида\nРоза 1/2" },
+    { "key": "alert_shelly_prog", "value": "Gunsaw Genetics | Прогресс вида\nШелли 1/2" },
+	
+    { "key": "hint_milky", "value": "ЖУРНАЛ УТЕРЯН: Найдите оставленные физические записи." },
+    { "key": "hint_dune", "value": "ЖУРНАЛ УТЕРЯН: Зыбучие пески скрывают старые тексты. Найдите написанное." },
+    { "key": "hint_orange", "value": "ТРЕБОВАНИЕ ГЛУБИНЫ: Прорвитесь на Слой 2." },
+    { "key": "hint_crystal", "value": "ТРЕБОВАНИЕ ГЛУБИНЫ: Спуститесь на Слой 3." },
+    { "key": "hint_velvet", "value": "ТРЕБОВАНИЕ ГЛУБИНЫ: Достигните Слоя 4." },
+    { "key": "hint_baron", "value": "ТРЕБОВАНИЕ ГЛУБИНЫ: Выживите при погружении на Слой 5." },
+    { "key": "hint_roza", "value": "БИОМЕТРИЧЕСКАЯ БЛОКИРОВКА: Температура тела должна достичь критического отказа." },
+    { "key": "hint_voyager", "value": "ТАКТИЧЕСКАЯ БЛОКИРОВКА: Пройдите весь слой, не пролив ни капли крови." },
+    { "key": "hint_leapy", "value": "ТРАВМАТИЧЕСКАЯ БЛОКИРОВКА: Одновременный катастрофический перелом обеих ног." },
+    { "key": "hint_chompy", "value": "ТРАВМАТИЧЕСКАЯ БЛОКИРОВКА: Лишите мозг кислорода до самой грани небытия." },
+    { "key": "hint_icke", "value": "ТАКТИЧЕСКАЯ БЛОКИРОВКА: Уничтожьте цель, цепляясь за собственную угасающую жизнь." },
+    { "key": "hint_chik", "value": "ТАКТИЧЕСКАЯ БЛОКИРОВКА: Уничтожьте цель, находясь в воздухе на реактивной тяге." },
+    { "key": "hint_shelly", "value": "ТРАВМАТИЧЕСКАЯ БЛОКИРОВКА: Встаньте в зону поражения взрыва и выйдите живым." },
+    { "key": "hint_default", "value": "Генетический профиль повреждён. Выполните условие для разблокировки." },
+	
+    { "key": "species_experiment_name", "value": "Эксперимент" },
+    { "key": "species_experiment_desc", "value": "Оригинал. Сбалансирован во всём. Базовая модель." },
+    { "key": "species_experiment_traits", "value": "Немодифицированная физиология. Ни выдающихся сопротивлений, ни выдающихся слабостей." },
+	
+    { "key": "species_orange_name", "value": "Оранж" },
+    { "key": "species_orange_desc", "value": "Медленный и тупой громила. Опасно живучий. Стойкий." },
+    { "key": "species_orange_traits", "value": "Толстая шкура и плотные мышцы гасят удары и огнестрел прежде, чем те достигнут чего-то важного." },
+	
+    { "key": "species_milky_name", "value": "Милки" },
+    { "key": "species_milky_desc", "value": "Ловкий, но хрупкий. Хороший стрелок." },
+    { "key": "species_milky_traits", "value": "Телосложение для точности, а не для наказания. Каждая рана бьёт сильнее, чем должна." },
+	
+    { "key": "species_leapy_name", "value": "Липи" },
+    { "key": "species_leapy_desc", "value": "Стеклянная пушка. Очень ловкий, очень хрупкий. Гиперрегенерация." },
+    { "key": "species_leapy_traits", "value": "Гиперактивный метаболизм затягивает раны быстро... почти достаточно быстро, чтобы компенсировать то, как легко они появляются." },
+	
+    { "key": "species_chompy_name", "value": "Чомпи" },
+    { "key": "species_chompy_desc", "value": "Опасен в воде. Силён, но медлителен на суше." },
+    { "key": "species_chompy_traits", "value": "Водное телосложение с естественной прослойкой. Создан выдерживать удары, а не уклоняться." },
+	
+    { "key": "species_roza_name", "value": "Роза" },
+    { "key": "species_roza_desc", "value": "Поддержка. Очень похож на Эксперимент, но выносливее." },
+    { "key": "species_roza_traits", "value": "Необычно низкая температура тела позволяет переносить холод, от которого другие замёрзли бы." },
+	
+    { "key": "species_voyager_name", "value": "Вояджер" },
+    { "key": "species_voyager_desc", "value": "Быстрый, но хрупкий. Легконогий и умный." },
+    { "key": "species_voyager_traits", "value": "Лёгкий и быстрый... ценой всего, что можно назвать прочным." },
+	
+    { "key": "species_baron_name", "value": "Барон" },
+    { "key": "species_baron_desc", "value": "Огромный запас здоровья. Нет регенерации здоровья." },
+    { "key": "species_baron_traits", "value": "Стена из мяса и мышц, которую просто невозможно свалить, но полученный урон остаётся. Его тело не восстанавливается, как у других." },
+	
+    { "key": "species_chik_name", "value": "Чик" },
+    { "key": "species_chik_desc", "value": "Воздушный и хрупкий. Быстрые руки, ломкое тело." },
+    { "key": "species_chik_traits", "value": "Гибкое, лёгкое телосложение, созданное для воздуха. Создан ломаться, если слишком долго остаётся на земле." },
+	
+    { "key": "species_crystal_name", "value": "Кристалл" },
+    { "key": "species_crystal_desc", "value": "Средний в бою. Неуклюж с оружием. Крепкий фасад." },
+    { "key": "species_crystal_traits", "value": "Крепкая кристаллическая шкура, которая держится примерно так же, как и у всех остальных. Не лучше и не хуже." },
+	
+    { "key": "species_velvet_name", "value": "Вельвет" },
+    { "key": "species_velvet_desc", "value": "Танк с плохим обращением с оружием. Бойтесь его выносливости." },
+    { "key": "species_velvet_traits", "value": "Плотный многослойный экзоскелет поглощает больше ударов, чем кажется." },
+	
+    { "key": "species_icke_name", "value": "Икке" },
+    { "key": "species_icke_desc", "value": "Плохое обращение с оружием, очень высокие прыжки. Адреналиновый наркоман." },
+    { "key": "species_icke_traits", "value": "Кровь перегружена адреналином. Чем хуже рана, тем опаснее они становятся." },
+	
+    { "key": "species_shelly_name", "value": "Шелли" },
+    { "key": "species_shelly_desc", "value": "Очень танковый. Очень медленный. Пониженная регенерация." },
+    { "key": "species_shelly_traits", "value": "Тяжёлый экзоскелет отражает пламя и осколки, которые искалечили бы более мягкие тела... но заживает медленно, и быстро двигаться не способен." },
+	
+    { "key": "species_dune_name", "value": "Дюн" },
+    { "key": "species_dune_desc", "value": "Высокий уровень мастерства. Высокий уровень угрозы. Пониженная регенерация." },
+    { "key": "species_dune_traits", "value": "Жаберный и приспособленный к воде, с простым разумом, который сохраняет опасную ясность под давлением." },
+	
+    { "key": "species_albino_name", "value": "Альбинос" },
+    { "key": "species_albino_desc", "value": "Именно к этому всё и ведёт. Других путей нет." },
+    { "key": "species_albino_traits", "value": "Эксперим#$@* // Снова. Мы должны идти снова. На этот раз дальше." },
+	
+    { "key": "moodle_albino_active_title", "value": "Стадия рассинхронизации" },
+    { "key": "moodle_albino_active_desc", "value": "Болевые рецепторы отключены. Выход за физические пределы. // Снова... СНОВА! СНООООВВВААА!!!!" },
+    { "key": "moodle_albino_after1_title", "value": "Восстановление" },
+    { "key": "moodle_albino_after1_desc", "value": "Учащенное сердцебиение. Повышенное кровяное давление." },
+    { "key": "moodle_albino_after2_title", "value": "Срыв рассинхронизации" },
+    { "key": "moodle_albino_after2_desc", "value": "Сильная гипертония. Быстрая потеря крови. // У меня есть только один шанс. Я не могу его упустить." },
+    { "key": "moodle_albino_after3_title", "value": "Полная остановка" },
+    { "key": "moodle_albino_after3_desc", "value": "ЭТО КОНЕЦ. ВТОРЫХ ШАНСОВ НЕ БУДЕТ." },
+
+    { "key": "dialogue_albino_1", "value": "Снова." },
+    { "key": "dialogue_albino_2", "value": "СНОВА! СНОВА!! СНОВА!!!" },
+
+    { "key": "species_albino_name", "value": "Альбинос" },
+    { "key": "species_albino_desc", "value": "Именно к этому все и ведет. Других путей нет." },
+    { "key": "species_albino_traits", "value": "Эксперим#$@* // Снова. Мы должны идти снова. На этот раз дальше." }
+  ]
+}

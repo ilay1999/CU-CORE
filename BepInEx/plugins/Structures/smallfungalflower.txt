@@ -1,0 +1,26 @@
+StructureDefinitions["smallfungalflower"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        ".....1.....",
+        "^^.&&.&&.^^",
+        ".fff&f&fff.",
+        "....fff....",
+        "....bfb....",
+        ".....b.....",
+        ".....b.....",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '1', "xaloris" },
+    },
+
+    SpawnCounts = new int[] { 3, 4, 1, 2, 5 },
+    SequentialItems = null,
+    BlockMapOverrides = null
+};

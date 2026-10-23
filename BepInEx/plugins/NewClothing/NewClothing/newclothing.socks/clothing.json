@@ -1,0 +1,17 @@
+{
+    "limbs": [ "FootB" ],
+    "fullname": "Socks",
+    "description": "A pair of socks. Provides protection for yout paws. Have no effect against glass shards.",
+    "category": "utility",
+    "decayMinutes": 360,
+    "weight": 0.1,
+    "desiredWearLimb": "FootF",
+    "wearSlotId": "socks",
+    "wearableIsolation": 0.1,
+    "wearableArmor": 0.2,
+    "wearableHitDurabilityLossMultiplier": 0.4,
+    "wearableVisualOffset": 1,
+    "rippableAmount": 1,
+    "value": 6,
+    "recognition": 5
+}

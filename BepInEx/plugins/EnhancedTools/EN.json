@@ -1,0 +1,119 @@
+{
+	"item": {
+		"liquidcentrifugev2":"Liquid Centrifuge V2",
+		"liquidcentrifugev2dsc": "A precisely calibrated handheld centrifuge with a 1.6L capacity. The separation process is gentler and causes no liquid loss whatsoever, though it requires a longer recharge time of 3 minutes.",
+		"motorcyclehelmet": "Motorcycle Helmet",
+		"motorcyclehelmetdsc": "A helmet with a reinforced shell and padded interior. Covers the entire head and gives a sense of security.",
+		
+		"doublewraps": "Double Wraps",
+		"doublewrapsdsc": "Two layers of gauze wound in a crisscross pattern provide a thicker buffer. A well-balanced upgrade offering both protection and warmth.",
+		"hardwraps": "Hardened Wraps",
+		"hardwrapsdsc": "Crushed hardened carcass shell powder mixed with resin, sacrificed insulation yet the fabric becomes resilient.",
+		"bathtowel": "Bath Towel",
+		"bathtoweldsc": "A clean, soft piece of cloth, perfect for getting every speck of dirt and grime off your body. Drag to use in the inventory to dry and clean your body, with a slight boost to mood.",
+
+		"aru": "A.R.U.",
+		"arudsc": "Personal automated emergency resuscitation unit. Maintains blood pressure and monitors heart rate. Automatically analyzes cardiac arrest and performs defibrillation when necessary.It might be a little big for you, but there aren't many things that can save your life in an emergency.",
+
+		"advtourniquet": "Gradual Tourniquet",
+		"advtourniquetdsc": "Advanced tourniquet, applying pressure in a gentler gradient. Effective hemostasis with reduced pain and durability loss. Still requires periodic release.",
+
+		"enhancedmachete":"Enhanced Machete",
+		"enhancedmachetedsc": "The blade tip has been aggressively reground with a steeper piercing profile, reducing lateral wrist strain — cost of its 'Cutting' quality traded for better penetration. A noticeable upgrade over standard tools. \nIncludes a small battery‑powered light.\n\n<color=yellow>Without power becomes less effective.</color>\n\n<color=\"red\">Can amputate severely infected limbs in the medical panel.</color>",
+
+		"enhancedpickaxe": "Enhanced Pickaxe",
+		"enhancedpickaxedsc": "Due to the pickaxe tip has been reground for significantly improved penetration, new blade geometry no longer aligns with standard processing specifications — the 'Hammering' quality have been lost in exchange for enhanced durability and efficiency. \nWith a small battery‑powered light.\n\n<color=yellow>Without power becomes less effective.</color>",
+
+		"gravbagv2":"GravBag V2",
+		"gravbagv2dsc":"The personal improved version of the GravBag, optimizing the power storage method and expanding its capacity. It can reduce the weight of items inside the container by generating negative gravity, and when the battery power is about to be depleted, it still has a tendency to explode.",
+
+		"autocharger":"Auto Charger",
+		"autochargerdsc":"Upgraded charging unit that replaces the hand crank with an internal motor. Just pop in your battery and let the machine do the rest — easier, quieter and faster.",
+
+		"heatingcage": "Heating Cage",
+		"heatingcagedsc": "A processed fragment is mounted inside the titanium cage, radiating a comforting warmth like a small furnace. \n<color=#CBCBCBFF>Drag to use in the inventory to toggle the light </color> \n<color=#CBCBCBFF>Repairable</color>",
+
+		"improvedmaterialpouch": "Improved Material Pouch",
+		"improvedmaterialpouchdsc": "An improved version of the material pouch. Optimized internal compartments and expanded capacity.",
+
+		"advancedmaterialpouch": "Advanced Material Pouch",
+		"advancedmaterialpouchdsc": "An advanced variant of the improved material pouch. Designed for carrying high-grade materials and slightly providing leg protection.",
+
+		"militarymaterialpouch": "Military Supply Pouch",
+		"militarymaterialpouchdsc": "A sturdy military‑grade canvas bag with a waterproof coating. Commonly used to carry ammunition, spare parts, medical supplies, or small tools. \nHolds a fair amount and offers extra protection as well — but don't expect it to stop a bullet.",
+
+		"labmaterialpouch":"Lab Material Pouch",
+		"labmaterialpouchdsc":"An experimentally modified military material pouch. Lined with insulation and fitted with a set of energy-shunt contacts, it converts battery power into an anti‑gravity field to significantly reduce carry weight.",
+
+		"bushwhacker": "Bush Whacker",
+		"bushwhackerdsc": "A row of sawback has been hammered into the spine of the blade for extreme environments like the broken teeth of a beast. The sole purpose of this knife is to cut down anything that stands in your way, before the trees even fall. \nBetter than a Machete in every way. \n\n<color=\"red\">Can amputate severely infected limbs in the medical panel.",
+
+		"mattock": "Mattock",
+		"mattockdsc": "This heavy pickaxe has been ground into a flat-edged blade. The wide face is made for turning earth and severing roots — while the horizontal point splits frozen ground and crushes stone with ease. \nBetter than a Pickaxe in every way.",
+
+		"standardcanteen":"Standard Canteen",
+		"standardcanteendsc":"A classic olive‑green canteen with a leak‑proof screw cap. Seals tight and holds up to the trail — the bare minimum you need to stay alive out there.1.2L capacity.",
+
+		"schematic": "Schematic",
+		"schematicdsc": "A military-grade engineering schematic. The blueprint slowly unfolds and folds itself through its internal mechanical structure — it seems far more than just a paper document. Precise assembly steps, material specifications, and circuit pathways are clearly marked, with small yet legible handwriting. But what truly stands out are the multiple handwritten notes crammed into the corners of the diagram:\n\n<i>\"Energy loop optimized.\"\n\"Overload threshold raised to 210%.\"\n\"Revision 4 — previous three failures archived. No further review required.\"\n\"Weld reinforcement standard upgraded. Double-layer structure is a design requirement, not redundancy.\"\n\"Quartermaster says this doesn't count as a weapon — they don't get to decide that.\"\n\"If you're reading this, you've passed clearance. Or you found something you weren't supposed to.\"\n\"...\"\n</i>\nIn the lab, a drained battery usually means rolling the dice — but military-grade standards are a different story.\n\n<color=yellow>Used as a crafting material for advanced equipment</color>",
+
+		"operpack": "Operation Backpack",
+		"operpackdsc": "A heavily modified modular backpack. Not standard-issue military hardware. Can be fitted with a battery to further reduce carry weight. Rugged, durable, and built for extended exploration and combat use.",
+
+		"explopack": "Explorer Backpack",
+		"explopackdsc":  "A premium civilian-grade outdoor backpack. Optimized load-bearing structure with expanded storage capacity.",
+
+		"wovenpack": "Woven Backpack",
+		"wovenpackdsc": "The outer layer is coated with waterproof resin and double-woven, slightly better than a duffle bag.",
+
+		"ivlegpouch" : "IV Leg Pouch",
+		"ivlegpouchdsc": "A simple setup made by strapping an IV bag to the leg with a few pieces of rope. Holds 0.5L. The needle has been removed to prevent accidental injury.",
+
+		"refittedwrench1": "Refitted Wrench",
+		"refittedwrench1dsc": "A modified multi-purpose wrench has been reinforced for greater durability with a re-gripped handle and a reworked head.\n<color=#CBCBCBFF>Drag advanced equipment onto the wrench to repair</color> \n\n<color=#CBCBCBFF>Can be used to remove shrapnel and correct joint dislocations</color> \n\n<color=yellow>A tool used for modifying and crafting advanced equipment</color>",
+		"camolegpouch": "Camo Leg Pouch",
+		"camolegpouchdsc": "A leg pouch in a familiar camouflage pattern. Offers increased carrying capacity and provides a little protection against minor impacts.",
+
+		"opslegpouch":"Spec Ops Leg Pouch",
+		"opslegpouchdsc":"A lightweight tactical leg pouch made from tear‑resistant fabric. Designed for rapid deployment and offers some of protection when it counts.",
+
+		"opshydrationlegpouch": "Ops Hydration Leg Pouch",
+		"opshydrationlegpouchdsc": "A variant of Spec Ops leg pouch with its storage compartment replaced by a 1.8L food‑grade water bladder.\nStill provides decent protection.",
+		"expandedbelt": "Expanded Belt",
+		"expandedbeltdsc": "Retains the original leather belt structure, with increased carrying capacity through additional side attachment points though slightly heavier as a result.",
+		"lightarmordbelt": "Light Belt",
+		"lightarmordbeltdsc": "A thicker, reinforced belt design with layered panels and a central buckle. Lose a bit of storage space but gain more protection.",
+		"labbelt": "Lab Belt",
+		"labbeltdsc": "A prototype combat belt that hasn't reached mass production yet. Uses lightweight composite armor and a tiny power pack to help support your load.\nImpressive performance, but power consumption and stability issues persist.As a safety measure, the belt reduces the weight of individual items.",
+		"clothslipones": "Cloth Slip-ones",
+		"clothsliponesdsc": "Rough‑woven straw sandals. Lightweight and cheap but far from comfortable. Minimal protection for your feet, better than wood sandals or going barefoot, but not much more.",
+		"trailrunners": "Trail Runners",
+		"trailrunnersdsc": "A pair of shoes designed for long‑distance trekking, striking a balance between durability and protection. Suitable for light outdoor activities. Not as comfortable as sneakers, but capable of handling most terrain.",
+		"medfanny": "Medical Fanny Pack",
+		"medfannydsc": "A repurposed waist pack built from a fanny pack and a medkit. The internal dividers have been stripped from the medkit and fitted into the pack, adding dedicated slots for syringes and various medications.",
+		"reinforcedmedpack": "Reinforced Medical Pack",
+		"reinforcedmedpackdsc": "Built with elements from belly armor, featuring a reinforced abrasion‑resistant base. Offers slightly less protection but provides larger storage capacity to store medical supplies like bandages and dressings.",
+		"surgicalrig": "Surgical Rig",
+		"surgicalrigdsc": "A specialized medical rig variant of the trauma rig. Sacrifices per-item weight for more total capacity. Designed to hold various medical supplies.\n\n<color=#CBCBCBFF>Providing protection for the torso and chest</color>",
+		"rehabicepack": "Rehab Ice Pack",
+		"rehabicepackdsc": "This upgraded cold pack uses a titanium sheet shell with Turbulent crystal shard embedded inside. Its energy‑amplifying properties boost cooling efficiency and deliver longer‑lasting cold therapy.",
+		"rapidchestdrain": "Rapid Chest Drain",
+		"rapidchestdraindsc": "An optimized chest drain that sacrifices single‑use efficiency in favor of faster operation and longer‑lasting endurance. Capable of treating multiple instances of pleural effusion in succession.Only usable on the chest.",
+		"diverope": "Dive Rope",
+		"diveropedsc": "Reinforced dive rope. Longer and more durable than climbing rope. Small indicator lights at both sides make easier to locate in dark environments."
+
+
+	},
+	"other": {
+		"autopumpdefibsuccess": "Heart rate restored",
+		"autopumpcancelled": "Heart rate restored\nDefibrillation cancelled",
+		"autopumpcritical": "Critical signs detected\nAutomatic defibrillation will begin......",
+		"batteryhasfullycharged": "Battery has fully charged",
+		"cqengineering": "Engineering",
+		"cqmodification": "Modification",
+		"wrench.repair.broken1": "Wrench is too damaged to repair anything",
+		"wrench.repair.full1": "Already in good condition",
+		"wrench.repair.success1": "Repaired {0}% durability (wrench -{1}%)"
+	},
+	"liquid": {}
+}

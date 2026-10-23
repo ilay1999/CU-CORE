@@ -1,0 +1,27 @@
+StructureDefinitions["NuclearDumpHole"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "#PGGGGGGGGGGP#",
+        "#P!!!!!!!!!!P#",
+        "#P!..11....TP#",
+        "#P!......4.TP#",
+        "#PS..1....TSP#",
+        "#PT.T....ToTP#",
+        "#PrST4..TcSrP#",
+        "#PrrTTTcTTrrP#",
+        "#PPrrrrrrrrPP#",
+        " #PPPPPPPPPP# ",
+        "  ##########  ",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '1', "glassshards" },
+        { '4', "radbarrel" },
+    },
+
+    SpawnCounts = new int[] { 0, 0, 0, 4, 0 },
+    SequentialItems = "braingrow",
+    BlockMapOverrides = null
+};

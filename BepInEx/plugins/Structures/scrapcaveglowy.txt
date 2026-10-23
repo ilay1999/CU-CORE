@@ -1,0 +1,57 @@
+StructureDefinitions["scrapcaveglowy"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "......................................",
+        "................................4.....",
+        "............9.........................",
+        "............................TTTTTTT...",
+        "...........................TTSSTTTTT..",
+        "........TTTTTTTT..........TTTSSSTTTT..",
+        ".....TTTTTTTTTTTT~~~~~~~~TTTTSSTTTTT.8",
+        "....TSSTTSTTTTSSTT~~~~~~TTTTSTSTTTTT .",
+        "...TTSTSTSTSTTTTSTT~~~~TTTTSTTTTTSTTT ",
+        "..TTSTTTTSSTTTTTTTTTTTTSTTST  TSSTTTTT",
+        "..TTTTSTTSTT  ^^TTTTTTTSTTS . TSSSTTTT",
+        "8.TTSTSTTST  ^ff^TSSSSSST.... TTTTTT5T",
+        "..TTTTTTTTT ..bf^.TTTSST.....TTTTTT . ",
+        "...TTTSSTSTT.b.^^............TTTSST ..",
+        "..0TTTTSTTTT.b..........7.CCCTTSSTT...",
+        "....TTTTTTTT.b......ii...CCCTTTSSST.8.",
+        "....TTTTTTTT======TT========TTTSSST...",
+        "....TT5.TTTTTTT=TTTTTTT===TSSSTTSTT...",
+        "  ..T...TTTTTTTTTT5.TTTTTTTTSSTTSST...",
+        "   .T... SSTTTTTT....TTTTTTTST  .TT...",
+        ".   T... TSTTTTT......TSTT.5SS   .T...",
+        ".   T... TST..TS......TTT .....   ....",
+        "..  T    ST.0..T..   .TST ..... ..0...",
+        "....5    ST....        S   .... ......",
+        "......   T....  ..   ..T.  .... ......",
+        ".......  T...   .......T.  .... ......",
+        ".........S .   ........... .... ......",
+        ".........S     ........0.. ...........",
+        ".........T    ............ ...........",
+        ".........T................ ...........",
+        ".......................... ...........",
+        ".........0............................",
+        "......................................",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '0', "glowshroom" },
+        { '4', "glowplant" },
+        { '5', "mushroomdropper" },
+        { '7', "LoreNote" },
+        { '8', "mushroomplatform" },
+        { '9', "medcrate" },
+    },
+
+    SpawnCounts = new int[] { 0, 1, 0, 0, 2 },
+    SequentialItems = "mindwipe",
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 0, GridY = 21, OffsetX = 0f, OffsetY = 0f, FlipX = true },
+    },
+    BlockMapOverrides = null
+};

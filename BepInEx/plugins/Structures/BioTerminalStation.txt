@@ -1,0 +1,49 @@
+StructureDefinitions["BioTerminalStation"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "..HHHHHHHHHHP",
+        "...MrMrMrMrHP",
+        ".......3...HP",
+        "......GGG..HP",
+        ".....G...G.HP",
+        "..6..G.9.G.HP",
+        "......HHH..HP",
+        "1.....#P#..HP",
+        "...MrMrMrMrHP",
+        "..HHHHHHHHHHP",
+    },
+
+    BackgroundShape = new string[]
+    {
+        "..HHHHHHHHHH.",
+        "..H........H.",
+        "..HH#H#H#H#H.",
+        "..HH#H#H#H#H.",
+        "..HH#HGGGH#H.",
+        "..HH#HGGGH#H.",
+        "..HH#H#H#H#H.",
+        "..HH#H#H#H#H.",
+        "..H........H.",
+        "..HHHHHHHHHH.",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '1', "bioterminal" },
+        { '3', "LifePodLight" },
+        { '6', "reinforceddoor" },
+        { '9', "gravbag" },
+    },
+
+    SpawnCounts = new int[] { 1, 1, 1, 2, 0 },
+    SequentialItems = "gravbag",
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 2, GridY = 4, OffsetX = 0f, OffsetY = 0.5f },
+        new EntityPrecisePos { GridX = 0, GridY = 2, OffsetX = -0.3f, OffsetY = 0.05f },
+        new EntityPrecisePos { GridX = 7, GridY = 4, OffsetX = 0f, OffsetY = 0.5f },
+        new EntityPrecisePos { GridX = 7, GridY = 7, OffsetX = 0f, OffsetY = 0.5f },
+    },
+    BlockMapOverrides = null
+};

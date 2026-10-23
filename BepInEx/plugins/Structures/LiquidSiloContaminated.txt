@@ -1,0 +1,78 @@
+StructureDefinitions["LiquidSiloContaminated"] = new StructureDef
+{
+    Shape = new string[]
+    {
+        "                                 .....",
+        "                              ........",
+        "       ...........................M...",
+        "    .............................M....",
+        " ...............................MH.X..",
+        "....XXXX.......XXXX............M..X.. ",
+        "..#..HH..#...#..HH..#...#.....X#.X... ",
+        "..#MMMMMM#...#MMMMMM#...#M....M#....  ",
+        "..#M~~~~M#...#M~~~~M#...#M&&&&M#..    ",
+        "..#M~~~~M#...#M~~~~M#...#M&&&&M#.     ",
+        "..#M~~~~M#...#M~~~~M#...#Me&&&M#      ",
+        ". #M~~~~M#...#M~~~~M#...#M&&&&M#      ",
+        ". #M~~*~M# ..#M~~~~M#...#M&&&&M#      ",
+        ". #M~~~~M# ..#M~~~~M#...#M&&eeM#      ",
+        ". #M~XX~M#  .#M~XX~M#...#M&XXeM#      ",
+        "  #M~~~~M#  .#M~~~~M#...#Me&&&M#      ",
+        "  #M~~~~M#   #M~~~~M#.. #M&&&&M#      ",
+        "  #M~~~~M#   #M~~~~M#.  #M&&e&M#      ",
+        "  #M~~~~M#####M~~~~M#####M&&&&M#      ",
+        "  #M~~~~MMMMMMM~~~~MMMMMMM&&&&M#      ",
+        "  #M~~~~~~~~~~~~~~~e&&e&&&e&&&M#      ",
+        "  #M~~~~~~~1~~~~~~~~ee&&e&&&&&M#      ",
+        "  #M~~~~MMMMMMM~~~~MMMMMMM&&&eM#      ",
+        "  #M~~~~M#####M~~.~M#####Me&&&M#      ",
+        "  #MMMMMM#   #MMMMMM#   #MMMMMM#      ",
+        "  ########   ########   ########      ",
+        "                                      ",
+    },
+
+    BackgroundShape = new string[]
+    {
+        "......................................",
+        "......................................",
+        "......................................",
+        "......................................",
+        "......................................",
+        "......................................",
+        "..#......#...#......#...#......#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..#MMMMMM#####MMMMMM#####MMMMMM#......",
+        "..#MMMMMMMMMMMMMMMMMMMMMMMMMMMM#......",
+        "..#MMMMMMMMMMMMMMMMMMMMMMMMMMMM#......",
+        "..#MMMMMMMMMMMMMMMMMMMMMMMMMMMM#......",
+        "..#MMMMMMMMMMMMMMMMMMMMMMMMMMMM#......",
+        "..#MMMMMM#####MMMMMM#####MMMMMM#......",
+        "..#MMMMMM#...#MMMMMM#...#MMMMMM#......",
+        "..########...########...########......",
+        "......................................",
+    },
+
+    EntityMap = new Dictionary<char, string>
+    {
+        { '1', "corpse" },
+    },
+
+    SpawnCounts = new int[] { 0, 2, 3, 0, 2 },
+    SequentialItems = "scubadivinggear",
+    PrecisePlacements = new List<EntityPrecisePos>
+    {
+        new EntityPrecisePos { GridX = 11, GridY = 5, OffsetX = -0.35f, OffsetY = -0.35f },
+        new EntityPrecisePos { GridX = 6, GridY = 14, OffsetX = -0.35f, OffsetY = -0.35f },
+    },
+    BlockMapOverrides = null
+};
