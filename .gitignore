@@ -1,0 +1,17 @@
+
+*.txt
+*.log
+*.dat
+CasualtiesUnknown.exe
+/CasualtiesUnknown_Data/*
+/MonoBleedingEdge/*
+UnityCrashHandler64.exe
+UnityPlayer.dll
+
+!/BepInEx
+!.doorstop_version
+!.gitignore
+!doorstop_config.ini
+!winhttp.dll
+!README.md
+
