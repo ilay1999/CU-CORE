@@ -1,0 +1,17 @@
+{
+    "limbs": [ "CrusB", "FootF", "FootB" ],
+    "fullname": "Limb armor",
+    "description": "A pair set of armor made to go on your crus and paws to minimize damage against projectiles. Less efficent against other forms of damage",
+    "category": "utility",
+    "decayMinutes": 0,
+    "weight": 0.5,
+    "desiredWearLimb": "CrusF",
+    "wearSlotId": "knees",
+    "wearableIsolation": 0.1,
+    "wearableArmor": 0.4,
+    "wearableHitDurabilityLossMultiplier": 0.1,
+    "wearableVisualOffset": 8,
+    "rippableAmount": 0,
+    "value": 24,
+    "isBulletproof": true,
+}

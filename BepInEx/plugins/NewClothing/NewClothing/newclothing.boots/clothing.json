@@ -1,0 +1,16 @@
+{ // Shout to Killer Tamashi for that
+    "limbs": [ "FootB" ],
+    "fullname": "Combat Boots",
+    "description": "A pair of heavy-duty leather boots, will last you quite a while and is fairly protective.",
+    "category": "utility",
+    "weight": 0.6,
+    "desiredWearLimb": "FootF",
+    "wearSlotId": "feet",
+    "wearableIsolation": 0.1,
+    "wearableArmor": 1,
+    "wearableHitDurabilityLossMultiplier": 0.1,
+    "wearableVisualOffset": 5,
+    "rippableAmount": 2,
+    "value": 22,
+    "recognition": 5
+}

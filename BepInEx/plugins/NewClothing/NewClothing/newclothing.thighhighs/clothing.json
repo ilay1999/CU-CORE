@@ -1,0 +1,17 @@
+{
+    "limbs": [ "ThighB", "CrusF", "CrusB", "FootF", "FootB" ],
+    "fullname": "Thigh highs",
+    "description": "A pair of thigh highs. Provides protection and insulation against the cold.",
+    "category": "utility",
+    "decayMinutes": 360,
+    "weight": 0.2,
+    "desiredWearLimb": "ThighF",
+    "wearSlotId": "thighhigh",
+    "wearableIsolation": 0.25,
+    "wearableArmor": 0.25,
+    "wearableHitDurabilityLossMultiplier": 0.35,
+    "wearableVisualOffset": 0,
+    "rippableAmount": 2,
+    "value": 18,
+    "recognition": 8
+}

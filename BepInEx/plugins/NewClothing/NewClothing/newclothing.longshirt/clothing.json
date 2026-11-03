@@ -1,0 +1,16 @@
+{ // shout out to Killer Tamashi for that
+    "limbs": [ "DownTorso", "UpArmF", "UpArmB", "DownArmB", "DownArmF" ],
+    "fullname": "Long Sleeve Shirt",
+    "description": "A long-sleeve shirt meant to cover your upper torso. Provides good insulation and some protection",
+    "category": "utility",
+    "decayMinutes": 0,
+    "weight": 0.3,
+    "desiredWearLimb": "UpTorso",
+    "wearSlotId": "torso",
+    "wearableIsolation": 0.35,
+    "wearableArmor": 0.25,
+    "wearableHitDurabilityLossMultiplier": 0.1,
+    "wearableVisualOffset": 2,
+    "rippableAmount": 3,
+    "value": 27
+}

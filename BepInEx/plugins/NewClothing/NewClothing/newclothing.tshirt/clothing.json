@@ -1,0 +1,16 @@
+{
+    "limbs": [ "DownTorso", "UpArmF", "UpArmB" ],
+    "fullname": "T-Shirt",
+    "description": "A t-shirt made to cover your thorax, abdomen and upper arms. Provides good insulation and some protection",
+    "category": "utility",
+    "decayMinutes": 0,
+    "weight": 0.25,
+    "desiredWearLimb": "UpTorso",
+    "wearSlotId": "torso",
+    "wearableIsolation": 0.3,
+    "wearableArmor": 0.25,
+    "wearableHitDurabilityLossMultiplier": 0.1,
+    "wearableVisualOffset": 2,
+    "rippableAmount": 2,
+    "value": 24,
+}

@@ -1,0 +1,17 @@
+{
+    "limbs": [ ],
+    "fullname": "Holiday hat",
+    "description": "You've heard that people wear these for some kind of special occasion, though you're not sure what it's about. It's nice that you were sent with one, at least.",
+    "category": "utility",
+    "decayMinutes": 0,
+    "weight": 0.1,
+    "desiredWearLimb": "Head",
+    "wearSlotId": "hat",
+    "wearableIsolation": 0.2,
+    "wearableArmor": 0.1,
+    "wearableHitDurabilityLossMultiplier": 0,
+    "wearableVisualOffset": 3,
+    "rippableAmount": 2,
+    "value": 4,
+    "recognition": 7
+}

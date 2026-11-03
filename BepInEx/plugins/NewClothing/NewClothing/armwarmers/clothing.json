@@ -1,0 +1,17 @@
+{
+    "limbs": [ "UpArmF", "UpArmB", "DownArmB", "HandF", "HandB" ],
+    "fullname": "Arm warmers",
+    "description": "A pair of arm warmers. Provides some insulation against the cold.",
+    "category": "utility",
+    "decayMinutes": 360,
+    "weight": 0.1,
+    "desiredWearLimb": "DownArmF",
+    "wearSlotId": "arms",
+    "wearableIsolation": 0.1,
+    "wearableArmor": 0.25,
+    "wearableHitDurabilityLossMultiplier": 0.4,
+    "wearableVisualOffset": 0,
+    "rippableAmount": 1,
+    "value": 12,
+    "recognition": 8
+}
