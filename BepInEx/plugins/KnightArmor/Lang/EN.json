@@ -1,0 +1,81 @@
+{
+  "_comment": "Knight Armor texts. File name = game language (Locale.currentLangName, e.g. EN.json, zh-CN.json). Missing file or key: English built into the mod is used.",
+  "items": {
+    "knight_helmet": {
+      "name": "Knight's Armet",
+      "description": "A closed steel helmet with a visor, forged in the old way. Covers the whole head. Blades and teeth will hardly get through, but a blunt blow or a bullet still hurts. Heavy and stuffy."
+    },
+    "knight_cuirass": {
+      "name": "Knight's Cuirass",
+      "description": "A steel breastplate and backplate with a skirt of lames over the belly. Covers the chest and the abdomen. Stops blades and teeth, softens blows. Very heavy."
+    },
+    "knight_pauldrons": {
+      "name": "Knight's Pauldrons",
+      "description": "A pair of steel shoulder and upper arm plates (rerebraces). Covers both upper arms."
+    },
+    "knight_vambraces": {
+      "name": "Knight's Vambraces",
+      "description": "A pair of steel forearm guards. Covers both forearms."
+    },
+    "knight_gauntlets": {
+      "name": "Knight's Gauntlets",
+      "description": "Articulated steel gloves. Covers both hands. Clumsy, but a bite will not get through."
+    },
+    "knight_cuisses": {
+      "name": "Knight's Cuisses",
+      "description": "A pair of steel thigh plates. Covers both thighs."
+    },
+    "knight_greaves": {
+      "name": "Knight's Greaves",
+      "description": "A pair of steel shin guards with knee cops. Covers both shins."
+    },
+    "knight_sabatons": {
+      "name": "Knight's Sabatons",
+      "description": "Steel armored shoes made of overlapping lames. Covers both feet. Loud on stone."
+    },
+    "knight_gambeson": {
+      "name": "Gambeson",
+      "description": "A thick quilted padded jacket worn under plate armor. Covers the chest, the abdomen and the upper arms. Softens blows and keeps you warm. Fits under a cuirass."
+    },
+    "knight_longsword": {
+      "name": "Knight's Longsword",
+      "description": "A long double-edged steel sword with a cross guard. Hits harder and reaches further than a machete, but is slower and heavier. Plate armor turns its edge."
+    },
+    "knight_ti_helmet": {
+      "name": "Titanium Armet",
+      "description": "A closed armet forged from titanium sheets. Covers the whole head. Titanium layers are light and almost no edge or tooth can cut through them."
+    },
+    "knight_ti_cuirass": {
+      "name": "Titanium Cuirass",
+      "description": "A titanium breastplate and backplate with a skirt of lames. Covers the chest and the abdomen. Titanium layers are light and almost no edge or tooth can cut through them."
+    },
+    "knight_ti_pauldrons": {
+      "name": "Titanium Pauldrons",
+      "description": "A pair of titanium shoulder and upper arm plates. Covers both upper arms. Titanium layers are light and almost no edge or tooth can cut through them."
+    },
+    "knight_ti_vambraces": {
+      "name": "Titanium Vambraces",
+      "description": "A pair of titanium forearm guards. Covers both forearms. Titanium layers are light and almost no edge or tooth can cut through them."
+    },
+    "knight_ti_gauntlets": {
+      "name": "Titanium Gauntlets",
+      "description": "Articulated titanium gloves. Covers both hands. Titanium layers are light and almost no edge or tooth can cut through them."
+    },
+    "knight_ti_cuisses": {
+      "name": "Titanium Cuisses",
+      "description": "A pair of titanium thigh plates. Covers both thighs. Titanium layers are light and almost no edge or tooth can cut through them."
+    },
+    "knight_ti_greaves": {
+      "name": "Titanium Greaves",
+      "description": "A pair of titanium shin guards with knee cops. Covers both shins. Titanium layers are light and almost no edge or tooth can cut through them."
+    },
+    "knight_ti_sabatons": {
+      "name": "Titanium Sabatons",
+      "description": "Titanium armored shoes made of overlapping lames. Covers both feet. Titanium layers are light and almost no edge or tooth can cut through them."
+    },
+    "knight_ti_longsword": {
+      "name": "Titanium Longsword",
+      "description": "A long titanium sword with a cross guard. Light for its size, keeps its edge for ages and cuts deeper than any machete. Only titanium plate can stop it."
+    }
+  }
+}
